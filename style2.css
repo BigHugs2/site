@@ -1,0 +1,204 @@
+head {
+    display: block;
+    font-size: 30px;
+    background: black;
+}
+
+@media screen and (device-width: 1280px) {
+    div {
+        width: 1100px;
+    }
+}
+
+@media screen and (device-width: 1024px) {
+    div {
+        width: 980px;
+    }
+}
+
+.top {
+    text-align: center;
+    display: flex;
+}
+
+body {
+    transition: all 3.5s;
+    color: white;
+    display: block;
+    background: black;
+    font-family: NineteenNinetyThree-L1Ay;
+    margin: 25px;
+}
+
+.child {
+    display: inline-block;
+    width: 40%;
+    font-size: 10px;
+}
+
+body.light,
+.scrol,
+.hr {
+    background-color: white;
+    color: black;
+}
+
+body.dark,
+.scrol,
+.hr {
+    background-color: black;
+    color: white;
+}
+
+button {
+    align-items: center;
+    appearance: none;
+    background-color: #FCFCFD;
+    border-radius: 4px;
+    border-width: 0;
+    box-shadow: rgb(45 35 66 / 40%) 0 2px 4px, rgb(45 35 66 / 30%) 0 7px 13px -3px, #d6d6e7 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #36395A;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "JetBrains Mono", monospace;
+    height: 20px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s, transform .15s;
+    user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow, transform;
+    font-size: 18px;
+}
+
+.button {
+    display: block;
+    text-align: right;
+    margin: auto 20px 5px 20px;
+    font-size: 20px;
+    position: relative;
+    z-index: inherit;
+}
+
+.info {
+    font-size: 20px;
+}
+
+div {
+    display: block;
+    font-size: 100%;
+}
+
+@font-face {
+    font-family: NineteenNinetyThree-L1Ay;
+    /* Гарнитура шрифта */
+    src: url(NineteenNinetyThree-L1Ay.ttf);
+    /* Путь к файлу со шрифтом */
+}
+
+.shag {
+    font-style: normal;
+    font-size: 30px;
+}
+
+.text {
+    font-size: 15px;
+}
+
+.scrol {
+    border-radius: 5px;
+    margin: 5px 5px;
+    height: 400px;
+    /* высота нашего блока */
+    background: #000000;
+    /* цвет фона, белый */
+    border: 2px solid #fff;
+    /* размер и цвет границы блока */
+    /* overflow-x: scroll;  прокрутка по горизонтали */
+    overflow-y: scroll;
+    /* прокрутка по вертикали */
+    font-size: 10px;
+}
+
+.prim {
+    font-size: 20px;
+    background: black;
+    border: 2px solid white;
+    margin: 5px 5px 5px 5px;
+    border-radius: 10px;
+    width: 600px;
+    text-align: center;
+    color: chartreuse;
+}
+
+.hr {
+    background-color: white;
+    height: 5px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+h1 .h1 {
+    text-align: center;
+    display: block;
+    font-size: 200%;
+    margin-block-start: 10px;
+    margin-block-end: 10px;
+    margin-inline-start: 10px;
+    margin-inline-end: 10px;
+    font-weight: bold;
+    background: black;
+    height: 60px;
+    width: auto;
+}
+
+h2 {
+    text-align: center;
+    display: block;
+    font-size: 30px;
+    margin-block-start: 10px;
+    margin-block-end: 10px;
+    margin-inline-start: 10px;
+    margin-inline-end: 10px;
+    font-weight: bold;
+}
+
+.android {
+    height: auto;
+    width: 100%;
+    align-content: center;
+}
+
+.img1 {
+    width: 100%;
+    max-width: 6000px;
+    align-content: center;
+}
+
+.strelka {
+    height: 40px;
+    width: auto;
+    z-index: auto;
+    float: left;
+    margin: 25px 10px 5px 10px;
+}
+
+video {
+    border: 4px solid white;
+    border-radius: 20px;
+    width: 250px;
+    height: 450px;
+}
+
+p {
+    align-content: center;
+}
